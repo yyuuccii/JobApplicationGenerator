@@ -38,14 +38,14 @@ Usage:
 - PersistentClient: Connects to the vector store and manages the portfolio collection.
 - Document Addition and Querying: Adds documents to the collection and performs semantic queries to retrieve the most relevant portfolio entries based on the job description.
 
-### 3. Email Generation
+### 3. Letter Generation
 
-Technique: The script uses `ChatGroq` again to generate a customized application email by integrating the extracted job details and relevant portfolio links.
+Technique: `ChatGroq`  is used again to generate a customized application email by integrating the extracted job details and relevant portfolio links.
 
 Framework:
-- `PromptTemplate`: Defines the structure of the email generation prompt, ensuring that the email is tailored to the job description and includes links to relevant portfolio projects.
+- `PromptTemplate`: Defines the structure of the letter generation prompt, ensuring that the letter is tailored to the job description and includes links to relevant portfolio projects.
 
 Usage:
-Constructs a personalized application email that highlights the applicant's skills and portfolio projects in relation to the job requirements.
+Constructs a personalized application letter that highlights the applicant's skills and portfolio projects in relation to the job requirements.
 
 
